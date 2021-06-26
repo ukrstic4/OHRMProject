@@ -1,0 +1,6 @@
+18:48:42.409 [TestNG-tests-1] DEBUG resources.Base - Changing information
+18:48:42.480 [TestNG-tests-1] DEBUG resources.Base - Changing dates
+18:48:43.889 [TestNG-tests-1] DEBUG resources.Base - Saving all changes
+18:48:47.500 [TestNG-tests-1] DEBUG resources.Base - Click on account and logout button
+18:48:47.501 [TestNG-tests-1] INFO  resources.Base - Test   PASSED  :   E2ETesting
+18:48:48.110 [TestNG-tests-1] INFO  resources.Base - Driver is closing

@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ParallelTesting" class="navigator-link">
+              <span class="suite-name border-failed">ParallelTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ParallelTesting" class="navigator-link ">
+                    <span>C:\Users\Uros\Eclipse-Project\OrangeHRMProject\ParallelTesting.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ParallelTesting" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ParallelTesting" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ParallelTesting" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ParallelTesting" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ParallelTesting" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ParallelTesting" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 1 failed,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ParallelTesting" class="hide-methods failed suite-ParallelTesting"> (hide)</a> <!-- hide-methods failed suite-ParallelTesting -->
+                      <a href="#" panel-name="suite-ParallelTesting" class="show-methods failed suite-ParallelTesting"> (show)</a> <!-- show-methods failed suite-ParallelTesting -->
+                    </span>
+                    <div class="method-list-content failed suite-ParallelTesting">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.MyInfoTest2Negative" class="method navigator-link" hash-for-method="editMyInfoWithoutEditBtn">editMyInfoWithoutEditBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ParallelTesting -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ParallelTesting" class="hide-methods passed suite-ParallelTesting"> (hide)</a> <!-- hide-methods passed suite-ParallelTesting -->
+                      <a href="#" panel-name="suite-ParallelTesting" class="show-methods passed suite-ParallelTesting"> (show)</a> <!-- show-methods passed suite-ParallelTesting -->
+                    </span>
+                    <div class="method-list-content passed suite-ParallelTesting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.E2ETest" class="method navigator-link" hash-for-method="E2ETesting">E2ETesting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.AssignLeaveTest" class="method navigator-link" hash-for-method="assignLeaveTest">assignLeaveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.MyInfoTest" class="method navigator-link" hash-for-method="editMyInfo">editMyInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.LogoutTest" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.NegativeLoginTest" class="method navigator-link" hash-for-method="negativeTest(, admin123)">negativeTest(, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.NegativeLoginTest" class="method navigator-link" hash-for-method="negativeTest(fds1, sdf2)">negativeTest(fds1, sdf2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.NegativeLoginTest" class="method navigator-link" hash-for-method="negativeTest(Admin, aljkhklhj)">negativeTest(Admin, aljkhklhj)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.NegativeLoginTest" class="method navigator-link" hash-for-method="negativeTest(, )">negativeTest(, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.NegativeLoginTest" class="method navigator-link" hash-for-method="negativeTest(Admin, )">negativeTest(Admin, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.NegativeLoginTest" class="method navigator-link" hash-for-method="negativeTest(b4343, admin123)">negativeTest(b4343, admin123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ParallelTesting" title="E2EProject.OrangeHRM.LoginTest" class="method navigator-link" hash-for-method="positiveTest">positiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ParallelTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ParallelTesting" class="panel ParallelTesting">
+          <div class="suite-ParallelTesting-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">E2EProject.OrangeHRM.MyInfoTest2Negative</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editMyInfoWithoutEditBtn">
+                  </a> <!-- editMyInfoWithoutEditBtn -->
+                  <span class="method-name">editMyInfoWithoutEditBtn</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=91.0.4472.114)
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;DESKTOP-SQMV3DN&apos;, ip: &apos;192.168.0.30&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.114, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\Uros\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64004}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aad6f83ce6729453dda0affce2bf2bc1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at E2EProject.OrangeHRM.MyInfoTest2Negative.editMyInfoWithoutEditBtn(MyInfoTest2Negative.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelTesting-class-failed -->
+          <div class="suite-ParallelTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">E2EProject.OrangeHRM.E2ETest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="E2ETesting">
+                  </a> <!-- E2ETesting -->
+                  <span class="method-name">E2ETesting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelTesting-class-passed -->
+          <div class="suite-ParallelTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">E2EProject.OrangeHRM.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveTest">
+                  </a> <!-- positiveTest -->
+                  <span class="method-name">positiveTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelTesting-class-passed -->
+          <div class="suite-ParallelTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">E2EProject.OrangeHRM.AssignLeaveTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="assignLeaveTest">
+                  </a> <!-- assignLeaveTest -->
+                  <span class="method-name">assignLeaveTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelTesting-class-passed -->
+          <div class="suite-ParallelTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">E2EProject.OrangeHRM.NegativeLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeTest(, admin123)">
+                  </a> <!-- negativeTest(, admin123) -->
+                  <span class="method-name">negativeTest</span>
+                  <span class="parameters">(, admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeTest(fds1, sdf2)">
+                  </a> <!-- negativeTest(fds1, sdf2) -->
+                  <span class="method-name">negativeTest</span>
+                  <span class="parameters">(fds1, sdf2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeTest(Admin, aljkhklhj)">
+                  </a> <!-- negativeTest(Admin, aljkhklhj) -->
+                  <span class="method-name">negativeTest</span>
+                  <span class="parameters">(Admin, aljkhklhj)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeTest(, )">
+                  </a> <!-- negativeTest(, ) -->
+                  <span class="method-name">negativeTest</span>
+                  <span class="parameters">(, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeTest(Admin, )">
+                  </a> <!-- negativeTest(Admin, ) -->
+                  <span class="method-name">negativeTest</span>
+                  <span class="parameters">(Admin, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeTest(b4343, admin123)">
+                  </a> <!-- negativeTest(b4343, admin123) -->
+                  <span class="method-name">negativeTest</span>
+                  <span class="parameters">(b4343, admin123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelTesting-class-passed -->
+          <div class="suite-ParallelTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">E2EProject.OrangeHRM.MyInfoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editMyInfo">
+                  </a> <!-- editMyInfo -->
+                  <span class="method-name">editMyInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelTesting-class-passed -->
+          <div class="suite-ParallelTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">E2EProject.OrangeHRM.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ParallelTesting-class-passed -->
+        </div> <!-- panel ParallelTesting -->
+        <div panel-name="test-xml-ParallelTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Uros\Eclipse-Project\OrangeHRMProject\ParallelTesting.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;ParallelTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;resources.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;LoginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;E2EProject.OrangeHRM.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTest --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;NegativeMyInfoTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;E2EProject.OrangeHRM.MyInfoTest2Negative&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NegativeMyInfoTest --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;NegativeLoginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;E2EProject.OrangeHRM.NegativeLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NegativeLoginTest --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;LogoutTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;E2EProject.OrangeHRM.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogoutTest --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;MyInfoTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;E2EProject.OrangeHRM.MyInfoTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyInfoTest --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;AssignLeaveTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;E2EProject.OrangeHRM.AssignLeaveTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AssignLeaveTest --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;EndToEndTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;E2EProject.OrangeHRM.E2ETest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EndToEndTest --&gt;
+&lt;/suite&gt; &lt;!-- ParallelTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ParallelTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ParallelTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NegativeMyInfoTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NegativeLoginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogoutTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MyInfoTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AssignLeaveTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EndToEndTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ParallelTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ParallelTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ParallelTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ParallelTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ParallelTesting');
+function tableData_ParallelTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'assignLeaveTest')
+data.setCell(0, 2, 'E2EProject.OrangeHRM.AssignLeaveTest')
+data.setCell(0, 3, 14207);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'editMyInfo')
+data.setCell(1, 2, 'E2EProject.OrangeHRM.MyInfoTest')
+data.setCell(1, 3, 13779);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'E2ETesting')
+data.setCell(2, 2, 'E2EProject.OrangeHRM.E2ETest')
+data.setCell(2, 3, 11176);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'editMyInfoWithoutEditBtn')
+data.setCell(3, 2, 'E2EProject.OrangeHRM.MyInfoTest2Negative')
+data.setCell(3, 3, 9016);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logout')
+data.setCell(4, 2, 'E2EProject.OrangeHRM.LogoutTest')
+data.setCell(4, 3, 5314);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'positiveTest')
+data.setCell(5, 2, 'E2EProject.OrangeHRM.LoginTest')
+data.setCell(5, 3, 4617);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'negativeTest')
+data.setCell(6, 2, 'E2EProject.OrangeHRM.NegativeLoginTest')
+data.setCell(6, 3, 2089);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'negativeTest')
+data.setCell(7, 2, 'E2EProject.OrangeHRM.NegativeLoginTest')
+data.setCell(7, 3, 1255);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'negativeTest')
+data.setCell(8, 2, 'E2EProject.OrangeHRM.NegativeLoginTest')
+data.setCell(8, 3, 727);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'negativeTest')
+data.setCell(9, 2, 'E2EProject.OrangeHRM.NegativeLoginTest')
+data.setCell(9, 3, 687);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'negativeTest')
+data.setCell(10, 2, 'E2EProject.OrangeHRM.NegativeLoginTest')
+data.setCell(10, 3, 432);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'negativeTest')
+data.setCell(11, 2, 'E2EProject.OrangeHRM.NegativeLoginTest')
+data.setCell(11, 3, 424);
+window.suiteTableData['ParallelTesting']= { tableData: data, tableDiv: 'times-div-ParallelTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-ParallelTesting">
+              </div> <!-- times-div-ParallelTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ParallelTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ParallelTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ParallelTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ParallelTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.MyInfoTest2Negative</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.MyInfoTest2Negative</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">editMyInfoWithoutEditBtn</span>
+                <span class="method-start">5882 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">positiveTest</span>
+                <span class="method-start">5882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10513 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.MyInfoTest2Negative</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15123 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.NegativeLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16792 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16793 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">18019 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.NegativeLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">negativeTest(, )</span>
+                <span class="method-start">18021 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeTest(Admin, aljkhklhj)</span>
+                <span class="method-start">20111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeTest(b4343, admin123)</span>
+                <span class="method-start">21368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeTest(fds1, sdf2)</span>
+                <span class="method-start">22056 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeTest(Admin, )</span>
+                <span class="method-start">22786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">negativeTest(, admin123)</span>
+                <span class="method-start">23219 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23337 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.NegativeLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23644 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.MyInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25260 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.AssignLeaveTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25768 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.MyInfoTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">editMyInfo</span>
+                <span class="method-start">26466 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.AssignLeaveTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">assignLeaveTest</span>
+                <span class="method-start">26949 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.MyInfoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40249 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.AssignLeaveTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41157 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EProject.OrangeHRM.E2ETest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42052 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">E2ETesting</span>
+                <span class="method-start">43234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54411 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

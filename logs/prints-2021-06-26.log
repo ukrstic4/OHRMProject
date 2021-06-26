@@ -1,0 +1,7 @@
+18:48:33.337 [TestNG-tests-2] INFO  resources.Base - Test   PASSED  :   editMyInfo
+18:48:34.248 [TestNG-tests-1] INFO  resources.Base - Test   PASSED  :   assignLeaveTest
+18:48:35.153 [TestNG-tests-2] INFO  resources.Base - Driver is closing
+18:48:36.325 [TestNG-tests-1] INFO  resources.Base - Driver is initialized
+18:48:38.231 [TestNG-tests-1] DEBUG resources.Base - Entering username and password
+18:48:40.664 [TestNG-tests-1] DEBUG resources.Base - Click login button
+18:48:41.672 [TestNG-tests-1] DEBUG resources.Base - Click on My Info

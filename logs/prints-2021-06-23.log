@@ -1,0 +1,8 @@
+23:33:25.195 [main] DEBUG resources.Base - Entering username and password
+23:33:27.691 [main] DEBUG resources.Base - Click login button
+23:33:28.677 [main] DEBUG resources.Base - Click on My Ifnfo
+23:33:29.473 [main] DEBUG resources.Base - Changing information
+23:33:29.541 [main] DEBUG resources.Base - Changing dates
+23:33:31.337 [main] DEBUG resources.Base - Saving all changes
+23:33:34.902 [main] DEBUG resources.Base - Click on account and logout button
+23:33:34.903 [main] DEBUG resources.Base - Click on account and logout button

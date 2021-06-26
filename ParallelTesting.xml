@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTesting" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener class-name="resources.Listeners"></listener>
+	</listeners>
+	<test name="LoginTest">
+		<classes>
+			<class name="E2EProject.OrangeHRM.LoginTest" />
+	
+		</classes>
+
+	</test> <!-- Test -->
+	
+		<test name="NegativeMyInfoTest">
+		<classes>
+			<class name="E2EProject.OrangeHRM.MyInfoTest2Negative" />
+	
+		</classes>
+
+	</test> <!-- Test -->
+	
+		<test name="NegativeLoginTest">
+		<classes>
+			<class name="E2EProject.OrangeHRM.NegativeLoginTest" />
+	
+		</classes>
+
+	</test> <!-- Test -->
+	
+		<test name="LogoutTest">
+		<classes>
+			<class name="E2EProject.OrangeHRM.LogoutTest" />
+	
+		</classes>
+
+	</test> <!-- Test -->
+
+	<test name="MyInfoTest">
+		<classes>
+
+			<class name="E2EProject.OrangeHRM.MyInfoTest" />
+		</classes>
+
+	</test> <!-- Test -->
+	
+		<test name="AssignLeaveTest">
+		<classes>
+
+			<class name="E2EProject.OrangeHRM.AssignLeaveTest" />
+		</classes>
+
+	</test> <!-- Test -->
+	
+		
+	
+		<test name="EndToEndTest">
+		<classes>
+
+			<class name="E2EProject.OrangeHRM.E2ETest" />
+		</classes>
+
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

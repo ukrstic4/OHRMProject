@@ -14,7 +14,7 @@ public class MyInfoPageObject extends Base {
 	private By editBtn = By.id("btnSave");
 	private By editName = By.id("personal_txtEmpFirstName");
 	private By editLastName = By.id("personal_txtEmpLastName");
-	private By employeeID = By.id("personal_txtEmployeeId");
+	private By employeeID = By.id("personal_txtOtherID");
 	private By nationality = By.id("personal_cmbNation");
 	private By maritalStatus = By.id("personal_cmbMarital");
 	private By dateOfBirth = By.id("personal_DOB");

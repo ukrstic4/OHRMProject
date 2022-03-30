@@ -1,6 +1,6 @@
-18:48:42.409 [TestNG-tests-1] DEBUG resources.Base - Changing information
-18:48:42.480 [TestNG-tests-1] DEBUG resources.Base - Changing dates
-18:48:43.889 [TestNG-tests-1] DEBUG resources.Base - Saving all changes
-18:48:47.500 [TestNG-tests-1] DEBUG resources.Base - Click on account and logout button
-18:48:47.501 [TestNG-tests-1] INFO  resources.Base - Test   PASSED  :   E2ETesting
-18:48:48.110 [TestNG-tests-1] INFO  resources.Base - Driver is closing
+15:10:18.921 [TestNG-tests-1] DEBUG resources.Base - Entering INVALID username and password
+15:10:18.972 [TestNG-tests-1] DEBUG resources.Base - Click login button
+15:10:19.013 [TestNG-tests-1] INFO  resources.Base - Username cannot be empty
+15:10:19.014 [TestNG-tests-1] INFO  resources.Base - Test   PASSED  :   negativeTest
+15:10:19.019 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+15:10:19.626 [TestNG-tests-1] INFO  resources.Base - Driver is closing

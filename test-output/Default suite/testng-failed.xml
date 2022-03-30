@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="E2EProject.OrangeHRM.MyInfoTest2Negative">
+      <class name="E2EProject.OrangeHRM.E2ETest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="editMyInfoWithoutEditBtn"/>
+          <include name="E2ETesting"/>
         </methods>
-      </class> <!-- E2EProject.OrangeHRM.MyInfoTest2Negative -->
+      </class> <!-- E2EProject.OrangeHRM.E2ETest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

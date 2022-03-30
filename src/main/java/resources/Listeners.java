@@ -30,7 +30,7 @@ ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		log.error("Test that PASSED" + result.getMethod().getMethodName());
+		log.error("Test that PASSED " + result.getMethod().getMethodName());
 		extentTest.get().fail(result.getThrowable());
 		String testCaseName = result.getMethod().getMethodName();
 		

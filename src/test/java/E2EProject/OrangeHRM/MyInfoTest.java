@@ -2,7 +2,6 @@ package E2EProject.OrangeHRM;
 
 import java.io.IOException;
 
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -46,9 +45,10 @@ public class MyInfoTest extends Base {
 		log.debug("Click on My Ifnfo");
 		myInfo.getEditBtn().click();
 		myInfo.getEditName().clear();
-		moveMouse().moveToElement(myInfo.getEditName()).click().sendKeys("Jake").build().perform();
+		moveMouse().moveToElement(myInfo.getEditName()).click().sendKeys("Monica").build().perform();
 		myInfo.getEditLastName().clear();
 		moveMouse().moveToElement(myInfo.getEditLastName()).click().sendKeys("Jones").build().perform();
+
 		myInfo.getEmployeeID().clear();
 		moveMouse().moveToElement(myInfo.getEmployeeID()).click().sendKeys("4487").build().perform();
 
@@ -56,25 +56,6 @@ public class MyInfoTest extends Base {
 		dropDownSelect(myInfo.getMaritalStatus(), "Single");
 		log.debug("Changing information");
 		myInfo.getDateOfBirth().click();
-
-		boolean staleElement = true;
-
-		while (staleElement) {
-
-			try {
-				log.debug("Changing dates");
-				calendarPicker1(myInfo.getMonthOfBirth(), "6", myInfo.getYearOfBirth(), "1995", myInfo.getDayOfBirth(),
-						"4");
-
-				staleElement = false;
-
-			} catch (StaleElementReferenceException e) {
-				log.error("StaleElementReferenceException");
-				staleElement = true;
-
-			}
-
-		}
 
 		myInfo.getSaveBtn().click();
 		log.debug("Saving all changes");

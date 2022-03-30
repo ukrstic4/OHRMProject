@@ -3,7 +3,6 @@ package E2EProject.OrangeHRM;
 import java.io.IOException;
 
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -56,25 +55,6 @@ public class E2ETest extends Base {
 		log.debug("Changing information");
 		myInfo.getDateOfBirth().click();
 
-		boolean staleElement = true;
-
-		while (staleElement) {
-
-			try {
-				log.debug("Changing dates");
-				calendarPicker1(myInfo.getMonthOfBirth(), "6", myInfo.getYearOfBirth(), "1995", myInfo.getDayOfBirth(),
-						"4");
-
-				staleElement = false;
-
-			} catch (StaleElementReferenceException e) {
-				log.error("StaleElementReferenceException");
-				staleElement = true;
-
-			}
-
-		}
-
 		myInfo.getSaveBtn().click();
 		log.debug("Saving all changes");
 
@@ -84,25 +64,6 @@ public class E2ETest extends Base {
 				.build().perform();
 		dropDownSelect(assignLeave.getLeaveType(), "6");
 		assignLeave.leaveFromDate1().click();
-
-		boolean staleElement1 = true;
-
-		while (staleElement1) {
-
-			try {
-
-				calendarPicker1(assignLeave.pickMonth(), "3", assignLeave.pickYear(), "2021", assignLeave.pickDay(),
-						"3");
-
-				staleElement1 = false;
-
-			} catch (StaleElementReferenceException e) {
-
-				staleElement = true;
-
-			}
-
-		}
 
 		moveMouse().moveToElement(homePage.getAccountBtn()).click().moveToElement(homePage.getLogoutBtn()).click()
 				.build().perform();

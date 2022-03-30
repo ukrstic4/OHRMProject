@@ -1,0 +1,8 @@
+16:17:06.747 [main] INFO  resources.Base - Driver is initialized
+16:17:08.819 [main] DEBUG resources.Base - Entering username and password
+16:17:11.699 [main] DEBUG resources.Base - Click login button
+16:17:12.703 [main] DEBUG resources.Base - Click on My Info
+16:17:13.417 [main] DEBUG resources.Base - Changing information
+16:17:13.476 [main] DEBUG resources.Base - Changing dates
+16:17:14.737 [main] DEBUG resources.Base - Saving all changes
+16:17:18.111 [main] DEBUG resources.Base - Click on account and logout button

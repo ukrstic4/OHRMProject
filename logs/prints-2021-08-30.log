@@ -1,0 +1,8 @@
+17:08:06.677 [main] DEBUG resources.Base - Changing information
+17:08:06.740 [main] DEBUG resources.Base - Changing dates
+17:08:06.824 [main] ERROR resources.Base - StaleElementReferenceException
+17:08:06.824 [main] DEBUG resources.Base - Changing dates
+17:08:06.919 [main] ERROR resources.Base - StaleElementReferenceException
+17:08:06.919 [main] DEBUG resources.Base - Changing dates
+17:08:08.104 [main] DEBUG resources.Base - Saving all changes
+17:08:11.308 [main] DEBUG resources.Base - Click on account and logout button

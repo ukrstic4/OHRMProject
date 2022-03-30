@@ -1,0 +1,8 @@
+11:56:51.513 [main] INFO  resources.Base - Driver is initialized
+11:56:53.970 [main] DEBUG resources.Base - Entering username and password
+11:56:56.546 [main] DEBUG resources.Base - Click login button
+11:56:57.578 [main] DEBUG resources.Base - Click on My Info
+11:56:58.330 [main] DEBUG resources.Base - Changing information
+11:56:59.507 [main] DEBUG resources.Base - Saving all changes
+11:57:02.690 [main] DEBUG resources.Base - Click on account and logout button
+11:57:02.696 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

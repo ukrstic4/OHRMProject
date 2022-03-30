@@ -1,0 +1,7 @@
+15:10:17.722 [TestNG-tests-1] INFO  resources.Base - Invalid credentials
+15:10:17.727 [TestNG-tests-1] INFO  resources.Base - Test   PASSED  :   negativeTest
+15:10:18.132 [TestNG-tests-1] INFO  resources.Base - Opening url
+15:10:18.237 [TestNG-tests-1] DEBUG resources.Base - Entering INVALID username and password
+15:10:18.283 [TestNG-tests-1] DEBUG resources.Base - Click login button
+15:10:18.316 [TestNG-tests-1] INFO  resources.Base - Test   PASSED  :   negativeTest
+15:10:18.817 [TestNG-tests-1] INFO  resources.Base - Opening url
